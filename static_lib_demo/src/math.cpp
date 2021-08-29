@@ -3,9 +3,19 @@
 namespace umbrella{
 namespace math{
 
-int add(int __a1, int __a2){
+template <typename T>
+T add(T __a1, T __a2){
 	return __a1 + __a2;
 };
+
+template
+int add(int, int);
+
+template
+double add(double, double);
+
+template
+long add(long, long);
 
 }
 }

@@ -4,7 +4,8 @@
 namespace umbrella{
 namespace math{
 
-int add(int, int);
+template <typename T>
+extern T add(T, T);
 
 }
 }
