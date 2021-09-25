@@ -5,7 +5,7 @@
  * 				and saves into database
  *	\author 	hsynydn
  *	\date		25 September 2021
- *	\warning 	For education purpose only
+ *	\warning	For education purpose only
  *	\copyright	GNU Public License
  */
 
@@ -16,8 +16,8 @@
 #include <linux/init.h>
 
 /**
- *	\fn 	init_module
- *	\brief 	module initialization
+ *	\fn		init_module
+ *	\brief	module initialization
  */
 int init_module(void){
 
@@ -30,8 +30,8 @@ int init_module(void){
 }
 
 /**
- *	\fn 	cleanup_module
- *	\brief 	module removing
+ *	\fn		cleanup_module
+ *	\brief	module removing
  */
 void cleanup_module(void){
 	printk(KERN_INFO "Goodbye World\n");

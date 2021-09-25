@@ -10,8 +10,8 @@
 #ifndef SRC_KLOGGER_KLOGGER_H_
 #define SRC_KLOGGER_KLOGGER_H_
 
-#define LICENCE 	"GNU/GPL"
-#define AUTHOR		"Hüseyin Aydın <huseyinaydin.ce@gmail.com>"
-#define DESCRIPTION "A kernel module which listens keystrokes"
+#define LICENCE 		"GNU/GPL"
+#define AUTHOR			"Hüseyin Aydın <huseyinaydin.ce@gmail.com>"
+#define DESCRIPTION		"A kernel module which listens keystrokes"
 
 #endif /* SRC_KLOGGER_KLOGGER_H_ */
